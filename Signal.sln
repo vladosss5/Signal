@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{FC0A788D-16DF-47CD-A3F8-45347D741BE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.API", "Chat.API\Chat.API.csproj", "{5AF865DF-DEF6-4EC0-8D36-8F80259D849F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesktopClient", "DesktopClient", "{CA93D150-A7A3-4396-850B-30FC42FD81A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signal.Desktop", "Signal.Desktop\Signal.Desktop.csproj", "{B415BD96-E590-4C95-A665-06E623DD7888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signal.Client.Desktop", "Signal.Client.Desktop\Signal.Client.Desktop.csproj", "{063181BE-714A-48BF-AA0B-32D9E6DD61E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5AF865DF-DEF6-4EC0-8D36-8F80259D849F} = {FC0A788D-16DF-47CD-A3F8-45347D741BE4}
+		{B415BD96-E590-4C95-A665-06E623DD7888} = {CA93D150-A7A3-4396-850B-30FC42FD81A5}
+		{063181BE-714A-48BF-AA0B-32D9E6DD61E6} = {CA93D150-A7A3-4396-850B-30FC42FD81A5}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AF865DF-DEF6-4EC0-8D36-8F80259D849F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF865DF-DEF6-4EC0-8D36-8F80259D849F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF865DF-DEF6-4EC0-8D36-8F80259D849F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF865DF-DEF6-4EC0-8D36-8F80259D849F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B415BD96-E590-4C95-A665-06E623DD7888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B415BD96-E590-4C95-A665-06E623DD7888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B415BD96-E590-4C95-A665-06E623DD7888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B415BD96-E590-4C95-A665-06E623DD7888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063181BE-714A-48BF-AA0B-32D9E6DD61E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063181BE-714A-48BF-AA0B-32D9E6DD61E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063181BE-714A-48BF-AA0B-32D9E6DD61E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063181BE-714A-48BF-AA0B-32D9E6DD61E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
