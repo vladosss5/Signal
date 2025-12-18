@@ -7,7 +7,7 @@ using Avalonia.Threading;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Microsoft.AspNetCore.SignalR.Client;
-using Signal.Client.Desktop.Models;
+using Signal.Client.Core.HttpClientModels;
 
 namespace Signal.Client.Desktop.ViewModels;
 

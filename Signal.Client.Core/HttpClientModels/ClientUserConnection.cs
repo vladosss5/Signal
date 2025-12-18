@@ -1,4 +1,4 @@
-namespace Signal.Client.Desktop.Models;
+namespace Signal.Client.Core.HttpClientModels;
 
 public class ClientUserConnection
 {

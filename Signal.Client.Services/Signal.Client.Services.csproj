@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Signal.Client.Application\Signal.Client.Application.csproj" />
+      <ProjectReference Include="..\Signal.Client.Core\Signal.Client.Core.csproj" />
+      <ProjectReference Include="..\Signal.Client.DataBase\Signal.Client.DataBase.csproj" />
+      <ProjectReference Include="..\Signal.Client.Http\Signal.Client.Http.csproj" />
+    </ItemGroup>
+
+</Project>
