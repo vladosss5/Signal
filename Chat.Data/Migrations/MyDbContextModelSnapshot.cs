@@ -9,7 +9,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace Chat.Data.Migrations
 {
-    [DbContext(typeof(MyDbContext))]
+    [DbContext(typeof(SignalDBContext))]
     partial class MyDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

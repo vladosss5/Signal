@@ -8,14 +8,14 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0"/>
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="10.0.2" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.0" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
-    </ItemGroup>
-
-    <ItemGroup>
+      <ProjectReference Include="..\Chat.Application\Chat.Application.csproj" />
       <ProjectReference Include="..\Chat.Data\Chat.Data.csproj" />
+      <ProjectReference Include="..\Chat.Implementation\Chat.Implementation.csproj" />
     </ItemGroup>
 
 </Project>
