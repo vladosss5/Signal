@@ -6,12 +6,12 @@ namespace Chat.Data.Context;
 /// <summary>
 /// Контекст БД
 /// </summary>
-public partial class MyDbContext : DbContext
+public partial class SignalDBContext : DbContext
 {
     /// <summary>
     /// Конструктор по умолчанию
     /// </summary>
-    public MyDbContext()
+    public SignalDBContext()
     {
     }
 
@@ -19,7 +19,7 @@ public partial class MyDbContext : DbContext
     /// Конструктор с параметрами запуска
     /// </summary>
     /// <param name="options"></param>
-    public MyDbContext(DbContextOptions<MyDbContext> options)
+    public SignalDBContext(DbContextOptions<SignalDBContext> options)
         : base(options)
     {
     }
